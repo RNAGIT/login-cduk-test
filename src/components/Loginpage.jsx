@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
+
 const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -61,9 +64,9 @@ const Login = () => {
 
         <div className="w-1/2">
           <img
-            src="/public/images/login.avif"
+            src="/images/login.avif"
             alt="Login Illustration"
-            className="w-full h-full object-cover"
+            className=" w-full h-full object-cover"
           />
         </div>
       </div>
