@@ -61,7 +61,7 @@ const Login = () => {
 
         <div className="w-1/2">
           <img
-            src="/src/images/login.avif"
+            src="/public/images/login.avif"
             alt="Login Illustration"
             className="w-full h-full object-cover"
           />
