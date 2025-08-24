@@ -1,25 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
-
-
 const Login = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="flex bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+      <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full">
         
-        <div className="w-1/2 p-8">
+        <div className="w-full md:w-1/2 p-8">
           <h1 className="text-3xl font-bold text-center text-blue-600 mb-4">
             Login Now
           </h1>
-          <h1 className="text-x font-semibold text-center mb-6">Welcome back! Let’s get you signed in</h1>
+          <h1 className="text-sm md:text-base font-semibold text-center mb-6">
+            Welcome back! Let’s get you signed in
+          </h1>
 
-         <form className="space-y-4">
+          <form className="space-y-4">
             <div>
               <label className="block mb-1 font-medium text-gray-700">Email</label>
               <input
-              
                 type="email"
                 placeholder="Enter your email"
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -32,9 +30,7 @@ const Login = () => {
                 type="password"
                 placeholder="Enter your password"
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                
               />
-              
             </div>
 
             <div className="text-right">
@@ -62,11 +58,11 @@ const Login = () => {
           </p>
         </div>
 
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2 h-64 md:h-auto">
           <img
             src="/images/login.avif"
             alt="Login Illustration"
-            className=" w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>

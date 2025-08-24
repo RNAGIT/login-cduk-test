@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 const ForgotPassword = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="max-w-md w-full bg-white p-8 rounded-lg shadow-lg">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+      <div className="max-w-md w-full bg-white p-6 md:p-8 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-4">
           Reset Password Now
         </h1>
-        <h1 className="text-x font-semibold text-center mb-6">No worries, reset and get back in!</h1>
-
+        <h1 className="text-sm md:text-base font-semibold text-center mb-6">
+          No worries, reset and get back in!
+        </h1>
 
         <form className="space-y-4">
           <div>
